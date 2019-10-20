@@ -66,7 +66,9 @@ header {
     transform: translate(-50%, -50%);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -145,14 +147,17 @@ Icons Setup
 Links Setup
 ********************/
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #e67e22;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
     transition: border-bottom 0.2s, color 0.2s;
 }
-a:hover,a:active{
+
+a:hover,
+a:active {
     color: #555;
     border-bottom: 1px solid transparent;
 }
@@ -161,7 +166,9 @@ a:hover,a:active{
 Buttons Setup
 ********************/
 
-.btn:link, .btn:visited, input[type=submit] {
+.btn:link,
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -171,27 +178,36 @@ Buttons Setup
     transition: background-color 0.2s, border 0.2s color 0.2s;
 }
 
-.btn-full:link, .btn-full:visited, input[type=submit] {
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px;
 }
 
-.btn-ghost:link, .btn-ghost:visited {
+.btn-ghost:link,
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
-.btn:hover, .btn:active, input[type=submit]:hover,input[type=submit]:active {
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d13;
 }
 
-.btn-full:hover, .btn-full:active, input[type=submit] {
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
     border: 1px solid #cf6d13;
 }
 
-.btn-ghost:hover, .btn-ghost:active {
+.btn-ghost:hover,
+.btn-ghost:active {
     border: 1px solid #cf6d13;
     color: #fff;
 }
@@ -214,7 +230,8 @@ Buttons Setup
     margin-left: 40px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.main-nav li a:link,
+.main-nav li a:visited {
     padding: 8px 0px;
     color: white;
     text-decoration: none;
@@ -224,7 +241,8 @@ Buttons Setup
     transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover, .main-nav li a:active {
+.main-nav li a:hover,
+.main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
 
@@ -319,9 +337,12 @@ How it works
     font-size: 150%;
     margin-right: 25px;
 }
-.button-app:link, .button-app:visited{
+
+.button-app:link,
+.button-app:visited {
     border: none;
 }
+
 .button-app img {
     height: 50px;
     width: auto;
@@ -346,14 +367,14 @@ Cities Section
 Testimonials Section
 *******************/
 
-.section-testimonials{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
 
-blockquote{
+blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
@@ -367,7 +388,7 @@ cite {
     display: block;
 }
 
-blockquote:before{
+blockquote:before {
     content: "\201C";
     font-size: 400%;
     display: block;
@@ -376,7 +397,7 @@ blockquote:before{
     left: -5px;
 }
 
-cite img{
+cite img {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
@@ -388,11 +409,11 @@ cite img{
 Sign up section
 *******************/
 
-.section-plans{
+.section-plans {
     background-color: #f4f4f4;
 }
 
-.plan-box{
+.plan-box {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
@@ -400,44 +421,44 @@ Sign up section
     box-shadow: 0 2px 2px #efefef;
 }
 
-.plan-box div{
+.plan-box div {
     padding: 15px;
     border-bottom: 1px solid #e4e2e1;
 }
 
-.plan-box div:first-child{
+.plan-box div:first-child {
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 
-.plan-box div:last-child{
+.plan-box div:last-child {
     text-align: center;
     border: 0;
 }
 
-.plan-price{
+.plan-price {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
     color: #e67e22;
 }
 
-.plan-price span{
+.plan-price span {
     font-size: 30%;
     font-weight: 300;
 }
 
-.plan-price-meal{
+.plan-price-meal {
     font-size: 80%;
 }
 
-.plan-box ul{
+.plan-box ul {
     list-style: none;
 }
 
-.plan-box ul li{
+.plan-box ul li {
     padding: 5px 0;
 }
 
@@ -445,26 +466,108 @@ Sign up section
 Contact Form section
 *******************/
 
-.contact-form{
+.contact-form {
     width: 60%;
     margin: 0 auto;
 }
 
-input[type=text],input[type=email], select, textarea {
+input[type=text],
+input[type=email],
+select,
+textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
-textarea{
+textarea {
     height: 100px;
 }
 
-input [type=checkbox]{
+input [type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus{
+*:focus {
     outline: none;
+}
+
+/*******************
+Footer Section
+*******************/
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav:last-child,
+.social-links:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook:hover,
+.ion-social-twitter:hover,
+.ion-social-googleplus:hover,
+.ion-social-instagram:hover {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dc4e41;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 }
