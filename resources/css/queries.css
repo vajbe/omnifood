@@ -134,16 +134,36 @@
         margin-bottom: 20px;
     }
 
+    .footer-nav li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 60px;
+    }
 
+    .social-links li {
+        display: inline-block;
+        margin-right: 100px;
+    }
 
 }
 
 /* Small phones : from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    section{
+    section {
         padding: 25px 0;
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .social-links li {
+        display: inline-block;
+        margin-right: 55px;
     }
 }
