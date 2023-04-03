@@ -1,0 +1,19 @@
+{
+  "name": "healthyfood",
+  "version": "1.0.0",
+  "description": "A project about healthy foods",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajbe/omnifood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vajbe/omnifood/issues"
+  },
+  "homepage": "https://github.com/vajbe/omnifood#readme"
+}
