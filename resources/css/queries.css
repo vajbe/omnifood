@@ -44,6 +44,7 @@
 
     .app-screen {
         width: 50%;
+        border-radius: 10px;
     }
 
     .icon-small {
@@ -112,6 +113,7 @@
 
     .app-screen {
         width: 40%;
+        border-radius: 10px;
     }
 
     .steps-box:first-child {

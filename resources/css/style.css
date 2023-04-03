@@ -316,6 +316,7 @@ How it works
 
 .app-screen {
     width: 40%;
+    border-radius: 10px;
 }
 
 .works-step {
